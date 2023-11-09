@@ -1,0 +1,43 @@
+#drop-zone {
+  width: 10rem;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+  transition: all 0.2s;
+}
+  
+#drop-zone.dragging {
+  border-color: #000;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#upload-button {
+  background-color: lightgreen;
+  border-radius: 2px;
+  height: 2rem;
+  width: 6rem;
+}
+
+#download-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 20rem;
+}
+
+#back-button {
+  background-color: lightgrey;
+  border: black solid 1px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+}
+  

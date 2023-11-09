@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Combiner</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+	<h1>PDF Combiner</h1>
+    <h2>File Upload</h2>
+    <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+        <div id="drop-zone">
+          Drop files here or click to select files.<br>
+          Hold `Ctrl` (or `Command` for mac) to select multiple files.
+        </div>
+        <input type="file" name="files" id="file-input" multiple>
+        <input type="submit" value="Upload" id="upload-button">
+      </form>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
